@@ -32,7 +32,7 @@ jobs:
         ##### EDIT ME #####      
         EDITION: [kde, gnome, cutefish]
         BRANCH: [stable]
-        SCOPE: [minimal]
+        SCOPE: [minimal, full]
         ###################
     steps:
       # cancel already running instances of the same action on the currently working on branch
