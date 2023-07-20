@@ -1,5 +1,9 @@
 name: iso_build
-on: push
+on: 
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   prepare-release:
