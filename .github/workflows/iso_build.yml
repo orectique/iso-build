@@ -21,7 +21,7 @@ jobs:
     needs: [prepare-release]
     strategy:
       matrix:
-        EDITION: [xfce, kde, gnome]
+        EDITION: [kde, gnome, cutefish]
         BRANCH: [stable]
         SCOPE: [minimal,full]
     steps:
