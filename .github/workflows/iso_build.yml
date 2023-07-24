@@ -30,9 +30,9 @@ jobs:
     strategy:
       matrix:
         ##### EDIT ME #####      
-        EDITION: [kde, gnome, cutefish]
+        EDITION: [cutefish]
         BRANCH: [stable]
-        SCOPE: [minimal, full]
+        SCOPE: [minimal]
         ###################
     steps:
       # cancel already running instances of the same action on the currently working on branch
